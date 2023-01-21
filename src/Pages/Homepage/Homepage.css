@@ -113,7 +113,8 @@
 }
 
 .token-section h1 {
-    padding-bottom: 25px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
     font-size: 62px;
     font-weight: 800;
     text-shadow: 1px 1px #fff;   
@@ -172,6 +173,22 @@
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    text-decoration: none;
+}
+
+h1 {
+    position: relative;
+}
+
+h1::before{
+    content: "";
+    position: absolute;
+    left: 5px;
+    bottom: 20px;
+    height: 5px;
+    width: 55px;
+    border-radius: 8px;
+    background-color: rgb(82, 113, 255);
 }
 
 .discord:hover {
