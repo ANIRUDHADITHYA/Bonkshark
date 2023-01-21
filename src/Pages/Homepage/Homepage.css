@@ -223,11 +223,13 @@ h1::before{
     
 .home-section {
     padding-top: 50px;
+    margin: 0;
 }
 .intro-section {
     display: flex;
     flex-direction: column-reverse;
     height: 100%;
+    width: 100%;
 }
 .tokenomics-section {
     display: flex;
