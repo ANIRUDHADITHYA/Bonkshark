@@ -90,6 +90,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    text-decoration: none;
 }
 
 .intro-content.nft a:hover {
@@ -105,6 +106,7 @@
     border-radius: 5px;
     cursor: pointer;
     width: fit-content;
+    text-decoration: none;
     transition: 0.3s;
 }
 
