@@ -8,9 +8,9 @@
 }
 
 body {
-	background: linear-gradient(-45deg, #ffd235, #ff7926, #5271ff, #0c92df);
-	background-size: 400% 400%;
-	animation: gradient 7.5s ease infinite;
+	background: linear-gradient(-45deg, rgba(255, 210, 53, 0.4), rgba(82, 113, 255, 0.8), rgba(255, 121, 38, 0.4), rgba(12, 146, 223, 0.8));
+	background-size: 800% 800%;
+	animation: gradient 15s ease infinite;
 	height: 100vh;
 }
 
@@ -25,3 +25,24 @@ body {
 		background-position: 0% 50%;
 	}
 }
+
+
+/* width */
+::-webkit-scrollbar {
+	width: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: black;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: rgb(255, 210, 53);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: rgb(82, 113, 255);
+  }
