@@ -27,7 +27,7 @@ const Homepage = () => {
                     <div className="intro-content nft">
                         <h1>Bonk Shark NFTs</h1>
                         <p>There are 10k randomly generated NFTs in Bonk Shark. Additionally, we have created our own token. The Bonk Shark NFT holders will receive 20% of the total token supply as a special airdrop. We will announce the airdrop distribution dates as soon as possible.</p>
-                        <a href="#"><span>Buy NFT</span></a>
+                        <a href="/"><span>Buy NFT</span></a>
                     </div>
                     <div className="nft-wrapper">
                         <img src={Logo} alt="logo" />
