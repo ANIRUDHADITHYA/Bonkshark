@@ -216,3 +216,74 @@ h1::before{
 .discord-wrapper {
     margin-top: 25px;
 }
+
+
+@media(max-width: 980px) { 
+
+    
+.home-section {
+    padding-top: 50px;
+}
+.intro-section {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+}
+.tokenomics-section {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.nft-section {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    padding: 0px 50px;
+    flex-direction: column;
+}
+.token-section {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    padding: 0px 50px;
+    align-items: left;
+}
+
+.logo-wrapper  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    padding-top: 25px;
+}
+
+.tokenomics-wrapper img {
+    width: 100%;
+    height: 100%;
+}
+.token-id p {
+    width: 100%;
+    text-align: center;
+}
+
+.token-section p {
+    width: 100%;
+}
+
+    
+}
+
+@media(max-width: 550px) {
+    .token-section h1 {
+        font-size: 42px;
+    }
+
+    .intro-content h1 { 
+        font-size: 42px;
+    }
+}
