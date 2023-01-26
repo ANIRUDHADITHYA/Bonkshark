@@ -224,7 +224,7 @@ h1::before{
 .home-section {
     padding-top: 50px;
     margin: 0;
-    width: 100%;
+    width: 100vw;
     margin: auto;
 }
 .intro-section {
