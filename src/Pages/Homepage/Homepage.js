@@ -37,7 +37,7 @@ const Homepage = () => {
                     <h1>Bonk Shark (BKSK) Token</h1>
                     <p>The Bonk Shark token is the first shark token created for the public, with 30% of the total supply allocated to the Solana community. In addition, Bonk Shark NFT holders will receive 20% of the total distribution of Bonk Shark tokens</p>
                     <a href="/"><span>Buy BKSK</span></a>
-                    <p className="token-id"><span>TOKEN ID:</span> o1Mw5Y3n68o8TakZFuGKLZMGjm72qv4JeoZvGiCLEvK</p>
+                    <p className="token-id active"><span>TOKEN ID:</span> o1Mw5Y3n68o8TakZFuGKLZMGjm72qv4JeoZvGiCLEvK</p>
                 </div>
 
                 <div className="tokenomics-section">
