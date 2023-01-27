@@ -135,7 +135,7 @@ const Homepage = () => {
                         </div>
                     </div>
                     <div class="container right">
-                        <div class="date">Q10</div>
+                        <div class="date">Q 10</div>
                         <i class="icon fa fa-certificate"></i>
                         <div class="content">
                             <p>One by one, Bonk Shark Token will be listed on many top exchanges</p>
